@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,  // commonjs, amd, es2015 module 문법 통일
+    "sourceMap": true,  // 기존 타입스크립트 소스로 debuging
+    "lib": ["ES2020", "DOM"],
+    "jsx": "react",
+    "module": "esnext", // [ commonjs, amd, es module ] 통일 => esnext
+    "moduleResolution": "Node",
+    "target": "es5",
+    "strict": true,
+    "resolveJsonModule": true,  // 확장자 json 체크
+    "baseUrl": "..",
+    "paths": {
+      "@hooks/*": ["hooks/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@typings/*": ["typings/*"]
+    }
+  }
+}
