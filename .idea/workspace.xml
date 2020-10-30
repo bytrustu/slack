@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49733bcf-6e7f-4719-845b-0d4c4ce25764" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alecture/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/client.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/layouts/App/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/tsconfig-for-webpack-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alecture/webpack.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alecture/hooks/useInput.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alecture/pages/LogIn/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alecture/pages/SignUp/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alecture/pages/SignUp/styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alecture/utils/fetcher.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/client.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/client.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/layouts/App/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/layouts/App/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/node_modules/@types/node/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/node_modules/babel-plugin-emotion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/node_modules/babel-plugin-emotion/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alecture/webpack.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alecture/webpack.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +56,8 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/alecture/layouts" />
+      <recent name="$PROJECT_DIR$/alecture" />
+      <recent name="$PROJECT_DIR$/alecture/pages" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -66,7 +72,7 @@
       <workItem from="1603860431217" duration="1089000" />
       <workItem from="1603970976674" duration="16000" />
       <workItem from="1603972324977" duration="239000" />
-      <workItem from="1603972701330" duration="5377000" />
+      <workItem from="1603972701330" duration="9787000" />
     </task>
     <servers />
   </component>
@@ -74,9 +80,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603976316439">
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604000587125">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1603976316439" />
+    <state x="360" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1604000587125" />
+    <state x="598" y="299" width="596" height="522" key="find.popup" timestamp="1604040875431">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="598" y="299" width="596" height="522" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1604040875431" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1603999251876">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1603999251876" />
   </component>
 </project>
